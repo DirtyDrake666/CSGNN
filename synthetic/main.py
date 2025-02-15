@@ -38,9 +38,7 @@ SR25_NAMES = [
 ]
 DATASET_NAMES = {
     'SR25': SR25_NAMES,
-    'CSL': ['CSL'],
-    'EXP': ['EXP'],
-    'CEXP': ['CEXP']
+    'EXP': ['EXP']
 }
 
 
