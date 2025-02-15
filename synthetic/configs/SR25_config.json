@@ -1,0 +1,23 @@
+{   "task" : "iso",
+
+    "cycles" : {
+        "dataset_config" : {
+            "root" : "data/SR25/",
+            "device" : "cuda",
+            "cutoff" : 6
+        },
+        "model_config" : {
+            "input_dim" : 1,
+            "hidden_dim" : 16,
+            "cutoff" : 11,
+            "n_classes" : 1,
+            "dropout" : 0,
+            "residuals" : true, 
+            "l2_norm" : true
+        }, 
+        "train_config" : {
+            "batch_size" : 1
+        }
+    }
+        
+}
